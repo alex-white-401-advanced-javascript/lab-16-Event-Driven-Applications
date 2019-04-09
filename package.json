@@ -13,6 +13,7 @@
   "author": "Alexander White",
   "license": "MIT",
   "dependencies": {
-    "jest": "^24.7.1"
+    "jest": "^24.7.1",
+    "jsdoc": "^3.5.5"
   }
 }
