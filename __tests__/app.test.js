@@ -1,6 +1,5 @@
 'use strict';
 
-// const faker = require('faker');
 const fileReader = require('../src/app.js').fileReader;
 const uppercaseFile = require('../src/app.js').uppercaseFile;
 const fileWriter = require('../src/app.js').fileWriter;
@@ -18,7 +17,7 @@ describe('app.js', () => {
       });
   });
 
-  it('fileReader() can read a file succesfully', () => {
+  xit('fileReader() can read a file succesfully', () => {
     let file = 'this.txt';
     return fileReader(file)
       .then( happy => {
